@@ -1,4 +1,4 @@
-<?php
+    <?php
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
@@ -166,21 +166,21 @@ $url_path = str_replace('\\', '/', $url_path);
                             -->
                     <div id="btnContainer">
                         <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> </button>
-                        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> </button>
+                        <button class="btn" onclick="gridView()"><i class="fa fa-th-large"></i> </button>
                     </div>
                     <br>
 
                     <div class="row">
-                        <div class="column" style="background-color:#aaa;">
+                        <div class="column" style="background-color:#ddd;">
                            <img src="../897/images/messi_1" alt="responsive">
                         </div>
-                        <div class="column" style="background-color:#bbb;">
+                        <div class="column" style="background-color:#ddd;">
                         <img src="../897/images/messi_2" alt="responsive">
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="column" style="background-color:#ccc;">
+                        <div class="column" style="background-color:#ddd;">
                         <img src="../897/images/messi_3" alt="responsive">
                         </div>
                         <div class="column" style="background-color:#ddd;">
