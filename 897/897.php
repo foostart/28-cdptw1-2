@@ -23,8 +23,10 @@ $less->compileFile('less/897.less', 'css/897.css');
 <html lang="zxx">
 
 <head>
-    <title>Demo</title>
+    <title>897</title>
     <meta charset="UTF-8">
+    <meta name="msapplication-tap-highlight" content="no"/>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -33,6 +35,9 @@ $less->compileFile('less/897.less', 'css/897.css');
 
     <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    
+   
+    
 <body>
 
 <?php include $dir_block.'/897-content.php'; ?>
