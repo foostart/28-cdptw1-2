@@ -1,0 +1,22 @@
+.type-1450 {
+  background-color: #272939;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Raleway';
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.type-1450 .nav li a {
+  border: 0;
+  font-size: 18px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "MontserratRegular";
+  background: none;
+  font-weight: bold;
+}
+.type-1450 .click {
+  color: #428bca;
+  border-bottom: #428bca solid 3px;
+}
