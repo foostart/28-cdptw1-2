@@ -4,7 +4,7 @@
             <div class="type-1450">
                 <ul class="nav nav-tabs">
                     <li class="description_tab">
-                        <a href="#tab-description" onclick="openTab('tab-description')" data-toggle="tab">Description</a>
+                        <a href="#tab-description" onclick="openTab('tab-description')" data-toggle="tab" >Description</a>
                     </li>
                     <li class="additionalinformation_tab">
                         <a href="#tab-additionalinformation" onclick="openTab('tab-additionalinformation')" data-toggle="tab">additional information</a>
