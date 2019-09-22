@@ -1,6 +1,7 @@
 function openTab(tabName) {
   var i;
   var x = document.getElementsByClassName("tab-pane");
+  var y = document.getElementsByClassName("description");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none"; 
   }
@@ -11,8 +12,9 @@ function openTab(tabName) {
 $(document).ready(function() {
 	$("li").click(function() {
         // Clear các thẻ li có Class click cũ
-		$("li").removeClass("click");
+            $(".description").css("visibility","visible");
+            $("li").removeClass("click");
         // Thêm Class
-		$(this).addClass("click");
+            $(this).addClass("click");
 	});
 });
