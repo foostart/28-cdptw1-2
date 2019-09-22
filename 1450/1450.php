@@ -14,7 +14,7 @@
 		require_once($dir_block.'/libs/lessc.inc.php');
 	}		
 ?>
-<html lang="eu" style="background-color: #f3f3f4;">
+<html lang="eu">
 
     <head>
         <title>1450</title>
@@ -37,5 +37,6 @@
          <?php include $dir_block.'/1450-content.php'; ?>
     </body>
     <script src="js/1450.js"></script>
+    
 
 </html>
