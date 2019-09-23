@@ -170,52 +170,219 @@
                         </div>
                         <br>
 
-                        <div class="row">
-                            <div class="column" style="background-color:#ddd;">
-                                <img src="../897/images/messi_1" alt="responsive">
-                                <img src="../897/images/messi_2" alt="responsive">
-                                <img src="../897/images/messi_3" alt="responsive">
-                                <img src="../897/images/messi_4" alt="responsive">
-                                <img src="../897/images/messi_2" alt="responsive">
-                                <img src="../897/images/messi_1" alt="responsive">
-                                <img src="../897/images/messi_2" alt="responsive">
-                                <img src="../897/images/messi_1" alt="responsive">
-                            </div>
-                        </div>
-
-
-                        <script>
-                            // Get the elements with class="column"
-                            var elements = document.getElementsByClassName("column");
-
-                            // Declare a loop variable
-                            var i;
-
-                            // List View
-                            function listView() {
-                                for (i = 0; i < elements.length; i++) {
-                                    elements[i].style.width = "100%";
-                                }
-                            }
-
-                            // Grid View
-                            function gridView() {
-                                for (i = 0; i < elements.length; i++) {
-                                    elements[i].style.width = "50%";
-                                }
-                            }
-
-                            /* Optional: Add active class to the current button (highlight it) */
-                            var container = document.getElementById("btnContainer");
-                            var btns = container.getElementsByClassName("btn");
-                            for (var i = 0; i < btns.length; i++) {
-                                btns[i].addEventListener("click", function() {
-                                    var current = document.getElementsByClassName("column");
-                                    current[0].className = current[0].className.replace(" column", "");
-                                    this.className += " active";
-                                });
-                            }
-                        </script>
+                    <div class="key_features">
+        <div class="container">
+          <div class="title-key text-center">
+            <h2 class="title">Key Features</h2>
+            <h3 class="sub_title">What Makes Our Shopify Theme so Power Full ?</h3>
+          </div>
+          <div class="box-item">
+            <div class="row">
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-1 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-1.png" alt="shopify theme">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Multi Curency</div>
+                    <div class="sub_title">Support Multi Curency</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6" >
+                <div class="box box-2 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-2.png" alt="shopify theme">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Oberlo Compatible</div>
+                    <div class="sub_title">Oberlo Drop shipping</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-3 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-3.png" alt="Social">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Custom google font</div>
+                    <div class="sub_title">Easily Change Font</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-4 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-4.png" alt="Pin Image Lookbook">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Drag & Drop sections</div>
+                    <div class="sub_title">Drag & Drop Sections Page Builder</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6" >
+                <div class="box box-5 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-5.png" alt="Bootstrap 4">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">AJAX CART</div>
+                    <div class="sub_title">Auto Update Your Cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-6 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-6.png" alt="shopify theme">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">RIGHT TO LEFT</div>
+                    <div class="sub_title">Right To Left Supported</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-7 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-7.png" alt="Multi Curency">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Fast loading</div>
+                    <div class="sub_title">Fast Loading Time</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6" >
+                <div class="box box-8 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-8.png" alt="Multi Language">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Mega Menu</div>
+                    <div class="sub_title">Powelful Mega Menu</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6" >
+                <div class="box box-9 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-9.png" alt="Custom google font">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Blog Secsion</div>
+                    <div class="sub_title">shopify Blog</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-10 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-10.png" alt="One Click Sample Data">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">MULTICOLOR</div>
+                    <div class="sub_title">Easy to change the main color  in Admin Panel.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-11 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-11.png" alt="AJAX CART">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Deal Countdown</div>
+                    <div class="sub_title">Module Countdown Time For Special Product</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-12 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-12.png" alt="RIGHT TO LEFT">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">FULLY RESPONSIVE</div>
+                    <div class="sub_title">Works on all Devices</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-13 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-13.png" alt="Fast loading">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Social Widgets</div>
+                    <div class="sub_title">Facebook, Twitter, Instagram there is simply way to show it</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-14 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-14.png" alt="Mega Menu">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">landing pages</div>
+                    <div class="sub_title">Pre-Made a lot of Landing Pages</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-15 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-15.png" alt="SmartBlog Module">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Instagram Slider</div>
+                    <div class="sub_title">Module For Displaying Instagram Photos</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="box box-16 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-12.png" alt="MULTICOLOR">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Newsletter Popup</div>
+                    <div class="sub_title">Allow To Display Pop-up Newsletter</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6" >
+                <div class="box box-17 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-17.png" alt="Deal Countdown">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Quick View</div>
+                    <div class="sub_title">For Fast Product Preview</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6" >
+                <div class="box box-18 text-center">
+                  <div class="icon_box">
+                    <img src="images/box-18.png" alt="FULLY RESPONSIVE">
+                  </div>
+                  <div class="text_box">
+                    <div class="title">Bootstrap 4</div>
+                    <div class="sub_title">Highest Bootstrap Version</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+                     
+                           
                     </div>
                 </div>
             </div>
