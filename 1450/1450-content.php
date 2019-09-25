@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-lg-9 col-md-3">
+        <div class="col-lg-9 col-md-3 all">
             <div class="type-1450">
                 <ul class="nav nav-tabs">
                     <li class="description_tab">
