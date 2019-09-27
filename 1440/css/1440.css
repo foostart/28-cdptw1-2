@@ -1,9 +1,6 @@
 .type-1440 body {
   font-family: poppins;
 }
-.type-1440 header .carousel-inner .item {
-  height: 100vh;
-}
 .type-1440 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
