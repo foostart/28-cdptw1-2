@@ -22,6 +22,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
          <link href="<?php echo $url_path ?>/css/1450.css" rel="stylesheet" type="text/css" />
+         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
          <script type="text/javascript" src = "js/jquery.min.js"></script>
         <?php
         if (!class_exists('lessc')) {
@@ -35,8 +36,10 @@
     </head>
 
     <body>
-        <?php include $dir_block.'/1450-content.php'; ?>
-        <script src="js/1450.js"></script>
+        <?php include '1450-content.php'; ?>    
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
     </body>
 
 </html>
