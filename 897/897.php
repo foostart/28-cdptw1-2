@@ -40,6 +40,7 @@ $less->compileFile('less/897.less', 'css/897.css');
     
 <body>
 
-<?php include $dir_block.'/897-content.php'; ?>
+<?php include '897-content.php'; ?>
+<script src="js/897.js"></script>
 </body>
 </html>
