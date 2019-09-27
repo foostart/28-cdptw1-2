@@ -36,7 +36,7 @@
           <div class="box-item">
             <div class="row">
               <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                <div class="box box-1 text-center">
+                <div class="box text-center">
                   <div class="icon_box">
                     <img src="images/box-1.png" alt="shopify theme">
                   </div>
@@ -47,7 +47,7 @@
                 </div>
               </div>
               <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                <div class="box box-2 text-center">
+                <div class="box text-center">
                   <div class="icon_box">
                     <img src="images/box-2.png" alt="shopify theme">
                   </div>
@@ -58,7 +58,7 @@
                 </div>
               </div>
               <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                <div class="box box-3 text-center">
+                <div class="box text-center">
                   <div class="icon_box">
                     <img src="images/box-3.png" alt="Social">
                   </div>
@@ -69,7 +69,7 @@
                 </div>
               </div>
               <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                <div class="box box-4 text-center">
+                <div class="box text-center">
                   <div class="icon_box">
                     <img src="images/box-4.png" alt="Pin Image Lookbook">
                   </div>
@@ -80,7 +80,7 @@
                 </div>
               </div>
               <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                <div class="box box-5 text-center">
+                <div class="box text-center">
                   <div class="icon_box">
                     <img src="images/box-5.png" alt="Bootstrap 4">
                   </div>
@@ -91,7 +91,7 @@
                 </div>
               </div>
               <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                <div class="box box-6 text-center">
+                <div class="box text-center">
                   <div class="icon_box">
                     <img src="images/box-6.png" alt="shopify theme">
                   </div>
