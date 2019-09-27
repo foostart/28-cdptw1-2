@@ -1,6 +1,15 @@
 <div class="type-1455">
     
 <section class="search-banner text-white py-3 form-arka-plan" id="search-banner">
+<div id="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SHORTCODE</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">ABOUTS</a></li>
+          <li><a href="#">NOTIFICATION</a></li>
+        </ul>
+      </div>
     <div class="container py-5 my-5">
         <div class="row text-center pb-4">
             <div class="col-md-12">
