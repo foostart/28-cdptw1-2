@@ -91,7 +91,7 @@
                 </div>
               </div>
               <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                <div class="box text-center">
+                <div class="box box-6 text-center">
                   <div class="icon_box">
                     <img src="images/box-6.png" alt="shopify theme">
                   </div>

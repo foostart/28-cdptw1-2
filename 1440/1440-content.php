@@ -5,7 +5,7 @@
       <div class="swiper-wrapper" role="listbox">
         <div class="swiper-slide">
           <div class="banner">
-            <img  src="<?php echo $url_path ?>/images/1.png"/>
+            <img  src="<?php echo $url_path ?>/images/1.png"  alt="responsive"/>
           </div>
           <div class="carousel-caption">
             <h2 class="animated bounceInRight" style="animation-delay: 1s;">VINCENT <span>PIZZA</span></h2>
@@ -15,7 +15,7 @@
         </div>
         <div class="swiper-slide">
           <div class="banner">
-            <img  src="<?php echo $url_path ?>/images/2.png"/>
+            <img  src="<?php echo $url_path ?>/images/2.png" alt="responsive"/>
           </div>
           <div class="carousel-caption">
             <h2 class="animated slideInDown" style="animation-delay: 1s;">VINCENT <span>PIZZA</span></h2>
@@ -25,7 +25,7 @@
         </div>
         <div class="swiper-slide">
           <div class="banner">
-            <img  src="<?php echo $url_path ?>/images/1.png"/>
+            <img  src="<?php echo $url_path ?>/images/1.png"  alt="responsive"/>
           </div>
           <div class="carousel-caption">
             <h2 class="animated zoomIn" style="animation-delay: 1s;">VINCENT <span>PIZZA</span></h2>
