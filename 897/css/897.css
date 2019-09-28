@@ -28,12 +28,10 @@ body {
 .type-897 .input-group {
   float: right;
   margin-top: 3px;
+  margin-right: 5px;
 }
 .type-897 .input-group-btn {
-  background: #d3640a;
-}
-.type-897 .input-group-btn.active {
-  background: #d3640a;
+  background: #e43509;
 }
 .type-897 .key_features {
   padding: 36px 0 69px 0;
