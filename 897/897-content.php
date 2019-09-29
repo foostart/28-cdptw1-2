@@ -8,7 +8,8 @@
     $url_path = str_replace('\\', '/', $url_path);
     ?>
     <div class="type-897">
-      <div id="menu">
+    <div class="container">
+    <div id="menu">
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#">SHORTCODE</a></li>
@@ -105,5 +106,7 @@
           </div>
         </div>
       </div>
+    </div>
+      
     </div>
    
