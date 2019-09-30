@@ -1,45 +1,32 @@
-body {
-    font-family: sans-serif;
-    color: #333;
-  }
+
 .type-897 {
+  .navbar-brand{
+    color: #fff;
+  }
+  .navbar-brand:hover{
+    color: #fff;
+  }
       /*==Style cho menu===*/
-      #menu ul {
+      .navbar-default {
         background: #1F568B;
-        list-style-type: none;
-        text-align: center;
       }
-      #menu li {
+      .navbar-nav li {
         color: #f1f1f1;
-        display: inline-block;
-        width: 120px;
-        height: 40px;
-        line-height: 40px;
-        margin-left: -5px;
         font-weight: bold;
       }
-      #menu a {
+      .navbar-nav li a {
         text-decoration: none;
         color: #fff;
         display: block;
       }
-      #menu a:hover {
+      .navbar-nav li a:hover {
         background: #F1F1F1;
         color: #333;
-      }
-      
-      .input-group{
-          float: right;
-         margin-top: 3px;
-       margin-right: 5px;
-      }
-      
+      }     
     .input-group-btn{
         background:rgb(228, 53, 9);
-    }
-    
+    }  
 .key_features {
-  
     padding: 36px 0 69px 0; }
    .key_features .title-key .title {
       font-size: 3rem;
@@ -98,13 +85,11 @@ body {
          #btnContainer {
                  float: right;
                 }
-
  .btn:hover,
  .btn.active {
     color: #00aeef;
     border-color: #00aeef;
 }
-
 .btn {
     border: 1px solid #a0a0a0;
     display: inline-block;
@@ -116,6 +101,18 @@ body {
     width: 32px;
     background: none;
 
+}
+@media only screen and (max-width: 767px) {
+  #alignment-example{
+    background: #1F568B;
+    position: absolute;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  #input{
+    width: 50em;
+  }
 }
 
 }

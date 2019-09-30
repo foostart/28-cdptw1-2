@@ -1,34 +1,24 @@
-body {
-  font-family: sans-serif;
-  color: #333;
+.type-897 .navbar-brand {
+  color: #fff;
 }
-.type-897 #menu ul {
+.type-897 .navbar-brand:hover {
+  color: #fff;
+}
+.type-897 .navbar-default {
   background: #1F568B;
-  list-style-type: none;
-  text-align: center;
 }
-.type-897 #menu li {
+.type-897 .navbar-nav li {
   color: #f1f1f1;
-  display: inline-block;
-  width: 120px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: -5px;
   font-weight: bold;
 }
-.type-897 #menu a {
+.type-897 .navbar-nav li a {
   text-decoration: none;
   color: #fff;
   display: block;
 }
-.type-897 #menu a:hover {
+.type-897 .navbar-nav li a:hover {
   background: #F1F1F1;
   color: #333;
-}
-.type-897 .input-group {
-  float: right;
-  margin-top: 3px;
-  margin-right: 5px;
 }
 .type-897 .input-group-btn {
   background: #e43509;
@@ -117,4 +107,16 @@ body {
   vertical-align: top;
   width: 32px;
   background: none;
+}
+@media only screen and (max-width: 767px) {
+  .type-897 #alignment-example {
+    background: #1F568B;
+    position: absolute;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .type-897 #input {
+    width: 50em;
+  }
 }
