@@ -29,6 +29,7 @@ $less->compileFile('less/1455.less', 'css/1455.css');
 
     <body>
         <?php include './1455-content.php'; ?>
+        <script src="<?php echo $url_path ?>/js/1455.js"></script>
     </body>
 
     </html>
