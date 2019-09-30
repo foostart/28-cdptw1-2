@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 
 	$url_host = 'http://'.$_SERVER['HTTP_HOST'];
@@ -14,7 +13,7 @@
 		require_once($dir_block.'/libs/lessc.inc.php');
 	}		
 ?>
-
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>1450</title>
@@ -31,15 +30,11 @@
         $less = new lessc;
         $less->compileFile('less/1450.less', 'css/1450.css');
         ?>
-       
-
     </head>
 
     <body>
         <?php include '1450-content.php'; ?>    
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </body>
-
 </html>

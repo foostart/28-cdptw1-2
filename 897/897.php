@@ -12,14 +12,11 @@ if (!class_exists('lessc')) {
     $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
     require_once($dir_block.'/libs/lessc.inc.php');
 }
-
 $less = new lessc;
 $less->compileFile('less/897.less', 'css/897.css');
-
 ?>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <title>897</title>

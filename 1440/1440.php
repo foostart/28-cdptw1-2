@@ -13,7 +13,7 @@ $less = new lessc;
 $less->compileFile('less/1440.less', 'css/1440.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>1440</title>
         <meta charset="UTF-8">
@@ -23,7 +23,7 @@ $less->compileFile('less/1440.less', 'css/1440.css');
         <link href="<?php echo $url_path ?>/css/1440.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/swiper.min.css">
-        <!-- end links css -->
+       
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script type="text/javascript" src = "js/jquery.min.js"></script>

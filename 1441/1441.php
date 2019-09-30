@@ -26,10 +26,7 @@ $less->compileFile('less/1441.less', 'css/1441.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
 </head>
-
-
     <body>
         <?php include '../1441/1441-content.php'; ?>
     </body>
-
 </html>
