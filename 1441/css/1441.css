@@ -1,15 +1,24 @@
 .type-1441 {
-  background: #ffc851;
+  background-image: url(../images/1441.png);
+  margin-top: 100px;
 }
 .type-1441 .content {
-  z-index: 555;
-  padding-top: 50px;
+  margin: 5%;
 }
 .type-1441 .content h2 {
-  font: 400 24px/32px Libre Baskerville;
+  letter-spacing: 5px;
+  font-size: 2em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .type-1441 .content p {
-  font: 400 16px/24px Varela Round;
+  padding-top: 5%;
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
   vertical-align: baseline;
-  color: #9f9f9f;
+  color: #ffffff;
+  font-size: 1.2em;
+  line-height: 2;
+}
+.type-1441 .content img {
+  color: black;
 }
