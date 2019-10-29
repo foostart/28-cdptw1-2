@@ -8,13 +8,10 @@
     $url_path = str_replace('\\', '/', $url_path);
     ?>
     <div class="type-897">
-
         <div id="menu">
-            <div class="containear">
-
+            <div class="container">
                 <nav class="navbar navbar-default">
                     <div class="container">
-
                         <!-- BRAND -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -48,9 +45,7 @@
                                     </span>
                                 </div>
                             </form>
-
                         </div>
-
                     </div>
                 </nav>
             </div>

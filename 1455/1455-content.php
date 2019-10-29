@@ -2,8 +2,7 @@
 
     <section class="search-banner text-white py-3 form-arka-plan" id="search-banner">
         <div id="menu">
-            <div class="containear">
-
+            <div class="container">
                 <nav class="navbar navbar-default">
                     <div class="container">
 
