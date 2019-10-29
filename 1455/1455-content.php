@@ -1,6 +1,4 @@
 <div class="type-1455">
-
-    <section class="search-banner text-white py-3 form-arka-plan" id="search-banner">
         <div id="menu">
             <div class="container">
                 <nav class="navbar navbar-default">
@@ -98,5 +96,5 @@
             </div>
         </div>
     </div>
-</section>
+
 </div>

@@ -1,3 +1,7 @@
+.type-1455 {
+  margin-top: 30px;
+  background: rosybrown;
+}
 .type-1455 .navbar-brand {
   color: #fff;
 }
@@ -5,7 +9,7 @@
   color: #fff;
 }
 .type-1455 .navbar-default {
-  background: #1f2035;
+  background: #999597;
 }
 .type-1455 .navbar-nav li {
   color: #f1f1f1;
@@ -19,9 +23,6 @@
 .type-1455 .navbar-nav li a:hover {
   background: #F1F1F1;
   color: #333;
-}
-.type-1455 .navbar-nav {
-  padding-left: 240px;
 }
 .type-1455 .input-group-btn {
   background: #e43509;
@@ -41,17 +42,20 @@
   -webkit-text-stroke-color: black;
 }
 .type-1455 .py-5 {
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 90px;
 }
 .type-1455 .card-body {
   padding: 20px;
   margin-top: 57px;
 }
+.type-1455 .text-white {
+  font-size: 4em;
+}
 @media only screen and (max-width: 767px) {
   .type-1455 #alignment-example {
     position: absolute;
-    background: #1F568B;
+    background: #999597;
     z-index: 1;
     width: 100%;
   }
