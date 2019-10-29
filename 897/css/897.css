@@ -110,8 +110,8 @@
 }
 @media only screen and (max-width: 767px) {
   .type-897 #alignment-example {
-    background: #1F568B;
     position: absolute;
+    background: #1F568B;
     z-index: 1;
   }
 }

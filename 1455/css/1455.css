@@ -20,20 +20,11 @@
   background: #F1F1F1;
   color: #333;
 }
+.type-1455 .navbar-nav {
+  padding-left: 240px;
+}
 .type-1455 .input-group-btn {
   background: #e43509;
-}
-@media only screen and (max-width: 767px) {
-  .type-1455 #alignment-example {
-    background: #1F568B;
-    position: absolute;
-    z-index: 1;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .type-1455 #input {
-    width: 50em;
-  }
 }
 .type-1455 .form-arka-plan {
   background-image: url(../images/1455.jpg);
@@ -56,4 +47,17 @@
 .type-1455 .card-body {
   padding: 20px;
   margin-top: 57px;
+}
+@media only screen and (max-width: 767px) {
+  .type-1455 #alignment-example {
+    position: absolute;
+    background: #1F568B;
+    z-index: 1;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .type-1455 #input {
+    width: 50em;
+  }
 }
