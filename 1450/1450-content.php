@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <div class="type-1450">
     <div class="container">
         <div class="row">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     
-=======
+
 <div class="container">
     <div class="row">
         <div class="col-lg-9 col-md-9">
@@ -88,13 +88,11 @@
                             </div>              
                         </div>               
                     </div>                
->>>>>>> parent of 18fab77... Format Lyout 1450
+
                 </div>
             </div>
         </div>                
     </div>
-<<<<<<< HEAD
 
-=======
 </div>
->>>>>>> parent of 18fab77... Format Lyout 1450
+</div>
